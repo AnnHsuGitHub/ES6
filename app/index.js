@@ -98,10 +98,10 @@ console.log(lowScores);
 let woo=`ya${'aa'.repeat(50)}`;
 console.log(woo);
 
-console.log('ladybug'.startsWith('lady'));
-console.log('ladybug'.endsWith('lady'));
-console.log('ladybug'.includes('yb'));
-
+console.log('ladybug'.startsWith('lady')); //起始文字
+console.log('ladybug'.endsWith('lady')); //結尾文字
+console.log('ladybug'.includes('yb')); //包含字串
+ 
 const addToCart=(item,number)=>{
  // return Number.isFinite(number); 
  return Number.isSafeInteger(number);
