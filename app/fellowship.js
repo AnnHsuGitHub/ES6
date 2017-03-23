@@ -11,4 +11,3 @@ const huge= (a,b)=>{
 
 // export { plus, huge};
 export default huge;
-console.log('');
